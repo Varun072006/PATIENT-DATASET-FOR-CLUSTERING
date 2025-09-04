@@ -52,8 +52,6 @@ This application enables automatic preprocessing, clustering, evaluation, and vi
 
    ### 📌 Results Table  
 
-   Best clustering method based on **Silhouette Score**: **Hierarchical**  
-
    | Algorithm     | Silhouette | Calinski-Harabasz | Davies-Bouldin | RI   | Dunn Index | Elbow Model |
    |---------------|------------|-------------------|----------------|------|------------|-------------|
    | **KMeans**    | 0.07136    | 374.864184        | 3.218522       | -1   | 0.027772   | [101543.67, 95998.53, 93745...] |
@@ -61,7 +59,8 @@ This application enables automatic preprocessing, clustering, evaluation, and vi
    | **DBSCAN**    | -1         | -1                | -1             | -1   | -1         | -1          |
 
 5. **Best Model Selection**
-   - Algorithm with the best Silhouette Score is automatically chosen.  
+   - Algorithm with the best Silhouette Score is automatically chosen.
+   - Best clustering method based on **Silhouette Score**: **Hierarchical**   
 
 ---
 
